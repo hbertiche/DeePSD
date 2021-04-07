@@ -1,3 +1,6 @@
+This repository contains the necessary code to run the model described in:<br>
+https://arxiv.org/abs/2009.02715
+
 <h3>DATA</h3>
 The dataset used on this work and this repository is <a href="http://chalearnlap.cvc.uab.es/dataset/38/description/">CLOTH3D</a>, with associated <a href="https://arxiv.org/abs/1912.02792">paper</a>.
 <br>
