@@ -13,6 +13,11 @@
             "affiliations": [1, 2]
         },
         {
+            "name": "Emilio Tylson",
+            "email": "mailto:emilio.tyl@gmail.com",
+            "affiliations": [1]
+        }
+        {
             "name": "Sergio Escalera",
             "email": "https://sergioescalera.com/",
             "affiliations": [1, 2]
