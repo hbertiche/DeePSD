@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Project Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+<body>
+    <div id="body">
+        <h1 id="title"></h1>
+        <h3 id="conference"></h3>
+        <div id="author-list">
+        </div>
+        <div id="affiliation-list">
+        </div>
+        <div id="button-list">
+            <a id="paper">
+                <img src="assets/logos/paper-icon.png">
+                <span>Paper</span>
+            </a>
+            <a id="arxiv">
+                <img src="assets/logos/arXiv.svg">
+                <span>arXiv</span>
+            </a>
+            <a id="youtube">
+                <img src="assets/logos/YouTube-logo.png">
+                <span>Video</span>
+            </a>
+            <a id="github">
+                <img src="assets/logos/GitHub-Mark-32px.png">
+                <span>GitHub</span>
+            </a>
+            <a id="data">
+                <img src="assets/logos/data-icon.png">
+                <span>Dataset</span>
+            </a>
+        </div>
+        <div id="content">
+            <img src="assets/imgs/motivation.png">
+            <div id="abstract-container">
+                <h1>Abstract</h1>
+                <p id="abstract"></p>
+            </div>
+            <div id="video-container">
+                <h1>Video</h1>
+                <iframe id="video"></iframe>
+            </div>
+            <div id="bibtex-container">
+                <h1>BibTeX</h1>
+                <div id="copy-button">
+                    <img src="assets/logos/copy-icon.png">
+                </div>
+                <pre id="bibtex">@article{paper2022foo,
+        author={author1,author2,author3,author4},
+        title={Paper Title},
+        year={2022},
+        ...
+    }</pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="paper.json"></script> -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
