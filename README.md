@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/hbertiche/hbertiche.github.io/main/imgs/publications/DeePSD.png">
 
-<a href="hbertiche.github.io/DeePSD">Project Page</a> | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Bertiche_DeePSD_Automatic_Deep_Skinning_and_Pose_Space_Deformation_for_3D_ICCV_2021_paper.html">Paper</a> | <a href="https://arxiv.org/abs/2009.02715">arXiv</a>
+<a href="https://hbertiche.github.io/DeePSD">Project Page</a> | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Bertiche_DeePSD_Automatic_Deep_Skinning_and_Pose_Space_Deformation_for_3D_ICCV_2021_paper.html">Paper</a> | <a href="https://arxiv.org/abs/2009.02715">arXiv</a>
 
 ## Abstract
 >
