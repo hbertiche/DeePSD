@@ -11,12 +11,12 @@
 
 <a href="mailto:hugo_bertiche@hotmail.com">Hugo Bertiche</a>, <a href="mailto:mmadadi@cvc.uab.cat">Meysam Madadi</a> and <a href="https://sergioescalera.com/">Sergio Escalera</a>
 
-<h3>DATA</h3>
+## Data
 The dataset used on this work and this repository is <a href="http://chalearnlap.cvc.uab.es/dataset/38/description/">CLOTH3D</a>, with associated <a href="https://arxiv.org/abs/1912.02792">paper</a>.
 <br>
 Path to data has to be specified at 'values.py'. Note that it also asks for the path to preprocessings, described below.
 
-<h4>PREPROCESSING</h4>
+### Preprocessing
 In order to optimize data pipeline, we preprocess template outfits. The code to train the model assumes the preprocessing is done.
 To perform this preprocessing, check the scripts at 'DeePSD/Preprocessing/'.
 <ol>
@@ -27,8 +27,19 @@ To perform this preprocessing, check the scripts at 'DeePSD/Preprocessing/'.
   <li><b>weights_prior.py</b> Precomputes blend weights labels by proximity to body in rest pose. Used for guiding learning in the first epoch.</li>
 </ol>
 
-<h3>TRAIN</h3>
+## Train
 Once all preprocessings have been completed. Just run 'train.py' and 'train_chi.py'.
 
-<h3>SMPL</h3>
+## SMPL
 We removed SMPL models in PKL format due to their size. The code will expect those as '/DeePSD/Model/smpl/model_f.pkl' and '/DeePSD/Model/smpl/model_m.pkl'.
+
+## Citation
+```
+@inproceedings{bertiche2021deepsd,
+  title={DeePSD: Automatic deep skinning and pose space deformation for 3D garment animation},
+  author={Bertiche, Hugo and Madadi, Meysam and Tylson, Emilio and Escalera, Sergio},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5471--5480},
+  year={2021}
+}
+```
