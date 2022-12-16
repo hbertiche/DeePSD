@@ -48,7 +48,7 @@ function make_site(paper){
         if(url == null) node.remove();
         else node.href = url;
     }
-    get("video").src = paper.URLs.youtube;
+    get("video").src = paper.URLs.youtube.replace('.be','be.com/embed/');
     get("copy-button").onclick = copy_bibtex;
 }
 
